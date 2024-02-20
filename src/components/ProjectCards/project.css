@@ -19,12 +19,7 @@
 }
 
 /* Text */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2,h3, h4, h5, h6 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -120,8 +115,8 @@ section.testimonials .testimonial-item {
 }
 
 .d-flex {
-align-items: flex-start !important;
-justify-content: center;
+  align-items: flex-start !important;
+  justify-content: center;
 }
 
 .ldnBackground {
@@ -153,7 +148,7 @@ justify-content: center;
 }
 
 .myProjects {
-  padding: 0px 15px 15px 15px;
+  padding: 20px 15px 15px 15px;
   row-gap: 20px;
 }
 
@@ -163,7 +158,11 @@ justify-content: center;
 
 .cardContainer {
   text-align: center;
-  margin-top: 20px;
+  height: 100%;
+  width: 100%;
+  display: flex  !important;
+  flex-flow: row wrap !important;
+  justify-content: space-around;
 }
 
 .section,
