@@ -1,0 +1,103 @@
+/* ROOT - CHANGE LATER */
+:root {
+    --button-color: hsla(203, 91%, 26%, 0.5);
+}
+
+.mb-4 {
+    margin-bottom: 0 !important;
+}
+
+/* button info */
+.btn-primary,
+.progress-bar {
+    --bs-btn-border-color: color: rgba(71, 65, 65, 0.9) !important;
+    --bs-btn-bg: var(--button-color);
+    background-color: var(--button-color);
+    color: whitesmoke !important;
+    --bs-btn-hover-color: rgba(71, 65, 65, 0.9) !important;
+    --bs-btn-hover-bg: hsla(203, 91%, 26%) !important;
+}
+
+/* Text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2,
+h3 {
+    margin-top: 25px;
+}
+
+h5 {
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navigation bar */
+
+/* General */
+
+.container-fluid {
+    --bs-gutter-x: none !important;
+}
+
+.navbar-brand {
+    --bs-navbar-brand-font-size: 32px !important;
+}
+
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/background.png");
+    opacity: 0.9;
+    /* background-color: transparent !important; */
+    /* background-size: cover; */
+    z-index: 10;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+}
+
+.nav-item {
+    margin: 0px 15px;
+}
+
+/* Navigation dropdown menu */
+.dropdown-menu {
+    background: rgba(183, 207, 228, 0.9);
+    /* background-color: transparent !important; */
+    /* background-size: cover; */
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #e6d7ff;
+    text-decoration: none;
+    background: hsla(221, 91%, 26%, 0.15);
+}
+
+/* Navigation links */
+.customNav a:link,
+.customNav a:visited,
+.customNav a:active {
+    color: hsla(203, 91%, 26%);
+}
+
+.navCTA {
+    font-size: 15px;
+}
