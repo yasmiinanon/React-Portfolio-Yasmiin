@@ -1,4 +1,4 @@
-import "./socials.css";
+import "../style.css";
 
 function Socials() {
   return (

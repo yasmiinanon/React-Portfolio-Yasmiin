@@ -4,6 +4,7 @@ import ProjectCard from './components/ProjectCards/project';
 import Skills from './components/Skills/skills';
 import Contact from "./components/Contact/contact";
 import Socials from "./components/Socials/socials";
+import Footer from "./components/Footer/footer";
 import projects from './project.json';
 
 
@@ -21,6 +22,7 @@ function App() {
       <Skills />
       <Contact />
       <Socials />
+      <Footer />
     </div>
   );
 }
