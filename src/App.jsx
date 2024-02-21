@@ -2,8 +2,10 @@ import Jumbotron from "./components/Jumbotron/Jumbotron";
 import Navbar from "./components/Navbar/Navbar";
 import ProjectCard from './components/ProjectCards/project';
 import Skills from './components/Skills/skills';
+import Contact from "./components/Contact/contact";
 import Socials from "./components/Socials/socials";
 import projects from './project.json';
+
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         ))}
       </div>
       <Skills />
+      <Contact />
       <Socials />
     </div>
   );

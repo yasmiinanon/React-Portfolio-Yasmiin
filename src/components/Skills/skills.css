@@ -150,6 +150,7 @@ section.testimonials .testimonial-item {
 .myProjects {
   padding: 20px 15px 15px 15px;
   row-gap: 20px;
+  background: url("../images/background-page.png");
 }
 
 .myProjects img {
@@ -186,7 +187,8 @@ section.testimonials .testimonial-item {
 
 .list-group {
   --bs-list-group-color: hsla(203, 91%, 26%) !important;
-  --bs-list-group-border-color: none;
+  --bs-list-group-border-color: none !important;
+  --bs-list-group-bg: none !important;
   --bs-list-group-bg: url("../images/background-page.png");
   /* the skills background */
   font-size: 25px;
