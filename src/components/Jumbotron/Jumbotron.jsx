@@ -2,7 +2,7 @@ import "../style.css";
 
 function Jumbotron() {
   return (
-    <div className="p-5 mb-4 bg-body-tertiary ldnBackground">
+    <div className="p-5 bg-body-tertiary ldnBackground background-tint">
       <div className="container-fluid py-5 jumboCopy">
         <h1 className="display-5 fw-bold">A little about me...</h1>
         <div className="d-flex col">

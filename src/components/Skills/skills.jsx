@@ -3,7 +3,7 @@ import "../style.css";
 function Skills() {
 return (
     <div className="container-fluid content section">
-      <h2 className="sectionHeading fw-bold" id="skills">Skills</h2>
+      <h2 className="sectionHeading fw-bold" id="skills">Web-development skills</h2>
       <div className="row myProjects">
 
         <ul className="list-group">

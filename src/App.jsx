@@ -16,7 +16,7 @@ function App() {
       <Jumbotron />
       <div className="row myProjects">
         {projects.map((project) => (
-          <ProjectCard key={project.id} name={project.name} image={project.image} description={project.description} buttonText={project.buttonText} />
+          <ProjectCard key={project.id} name={project.name} image={project.image} description={project.description} github={project.github} deployed={project.deployed} deployedPage={project.deployedPage} githubPage={project.githubPage} />
         ))}
       </div>
       <Skills />

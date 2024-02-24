@@ -11,7 +11,7 @@ function Contact() {
                 <i className="fas fa-map-marked-alt text-primary mb-2"></i>
                 <h3 className="text-uppercase m-0 fw-bolder">Address</h3>
                 <hr className="my-4" />
-                <div className="medium text-black-75">London, United Kingdom </div>
+                <div>London, United Kingdom </div>
               </div>
             </div>
           </div>
@@ -21,7 +21,7 @@ function Contact() {
                 <i className="fas fa-envelope text-primary mb-2"></i>
                 <h3 className="text-uppercase m-0 fw-bolder">Email</h3>
                 <hr className="my-4" />
-                <div className="medium text-black-75">
+                <div>
                   <a href="mailto:yasmin.a.ibrahim@icloud.com">yasmin.project@icloud.com</a>
                 </div>
               </div>
@@ -33,7 +33,7 @@ function Contact() {
                 <i className="fas fa-mobile-alt text-primary mb-2"></i>
                 <h3 className="text-uppercase m-0 fw-bolder">Phone</h3>
                 <hr className="my-4" />
-                <a className="medium text-black-75" href="077 1234 5678">077 1234 5678</a>
+                <a href="077 1234 5678">077 1234 5678</a>
               </div>
             </div>
           </div>

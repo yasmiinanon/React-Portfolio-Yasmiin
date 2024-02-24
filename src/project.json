@@ -1,34 +1,42 @@
 [
   {
     "id": 1,
-    "name": "Horiseon",
-    "image": "../images/horiseon.png",
-    "description": "I improved a homepage and its code based on accessibility standards.",
-    "link": "https://yasmiinanon.github.io/yasmiin-horiseon-code-refractor/",
-    "buttonText": "Visit Homepage"
+    "name": "5-Day Weather Schedule",
+    "image": "../images/weather-API.png",
+    "description": "I improved a homepage and its code based on established accessibility standards.",
+    "github": "https://github.com/yasmiinanon/APIs-for-weather-Yasmiin",
+    "deployed": "https://yasmiinanon.github.io/APIs-for-weather-Yasmiin/",
+    "deployedPage": "Deployed Page",
+    "githubPage": "Github"
   },
   {
     "id": 2,
     "name": "1st Portfolio",
     "image": "../images/portfolio-1.png",
     "description": "This project involved building a portfolio page, using HTML and CSS.",
-    "link": "https://yasmiinanon.github.io/challenge-2-Portfolio/",
-    "buttonText": "1st Portfolio"
+    "github": "https://github.com/yasmiinanon/challenge-2-Portfolio",
+    "deployed": "https://yasmiinanon.github.io/challenge-2-Portfolio/",
+    "deployedPage": "Deployed Page",
+    "githubPage": "Github"
   },
   {
     "id": 3,
     "name": "2nd Portfolio",
-    "image": "./images/portfolio-2.png",
+    "image": "../images/portfolio-2.png",
     "description": "This project involved building a portfolio page, using bootstrap, CSS and HTML",
-    "link": "https://yasmiinanon.github.io/yasmiinanon-bootstrap-portfolio/",
-    "buttonText": "2nd Portfolio"
+    "github": "https://github.com/yasmiinanon/yasmiinanon-bootstrap-portfolio",
+    "deployed": "https://yasmiinanon.github.io/yasmiinanon-bootstrap-portfolio/",
+    "deployedPage": "Deployed Page",
+    "githubPage": "Github"
   },
   {
     "id": 4,
-    "name": "Group Project 1",
-    "image": "../images/project-1.png",
-    "description": "This is a web application that allows users to search for cocktail recipes and explore their ingredients and recipes",
-    "link": "https://leeathena.github.io/Cocktail-guide/",
-    "buttonText": "Group Project"
+    "name": "Cocktail Guide",
+    "image": "../images/Cocktail1.png",
+    "description": "This web application was part of a group project which allows users to search for cocktail recipes and explore their ingredients and recipes",
+    "github": "https://github.com/leeathena/Cocktail-guide/tree/main/assets",
+    "deployed": "https://leeathena.github.io/Cocktail-guide/",
+    "deployedPage": "Deployed Page",
+    "githubPage": "Github"
   }
 ]

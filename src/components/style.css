@@ -1,24 +1,38 @@
-/* ROOT - CHANGE LATER */
-:root {
-    --button-color: hsla(203, 91%, 26%, 0.5);
+#title {
+    color: white !important;
 }
 
-.mb-4 {
-    margin-bottom: 0 !important;
+/* ROOT - CHANGE LATER */
+:root {
+    --button-color: rgba(62, 72, 60, 0.9);
+    --button-outline: rgba(83, 96, 80, 0.9);
+}
+
+.row {
+    margin-right: 0 !important;
 }
 
 /* button info */
-.btn-primary,
-.progress-bar {
+.progress-bar, a.btn.btn-primary.btn-md.navCTA {
     --bs-btn-border-color: color: rgba(71, 65, 65, 0.9) !important;
-    --bs-btn-bg: var(--button-color);
-    background-color: var(--button-color);
+    --bs-btn-bg: var(--button-color) !important;
+    background-color: var(--button-color) !important;
     color: whitesmoke !important;
-    --bs-btn-hover-color: rgba(71, 65, 65, 0.9) !important;
-    --bs-btn-hover-bg: hsla(203, 91%, 26%) !important;
+    --bs-btn-bg: var(--button-color) !important;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--button-color) !important;
+    --bs-btn-border-color:  var(--button-outline) !important;
+}
+
+.btn:hover {
+    --bs-btn-hover-bg: rgba(0, 0, 0, 0.6) !important;
+    --bs-btn-hover-border-color: var(--button-outline) !important;
 }
 
 /* Text */
+hr,
 h1,
 h2,
 h3,
@@ -26,6 +40,7 @@ h4,
 h5,
 h6 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white !important;
 }
 
 h2,
@@ -53,6 +68,10 @@ p {
     --bs-navbar-brand-font-size: 32px !important;
 }
 
+.navbar-toggler {
+    background-color: rgb(79, 93, 77) !important;
+}
+
 .customNav {
     position: fixed;
     width: 100%;
@@ -77,42 +96,52 @@ p {
     margin: 0px 15px;
 }
 
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
 /* Navigation dropdown menu */
 .dropdown-menu {
-    background: rgba(183, 207, 228, 0.9);
-    /* background-color: transparent !important; */
-    /* background-size: cover; */
+    background: rgb(77, 88, 75) !important;
 }
+
 
 .dropdown-item:focus,
 .dropdown-item:hover {
     color: #e6d7ff;
     text-decoration: none;
-    background: hsla(221, 91%, 26%, 0.15);
 }
 
 /* Navigation links */
 .customNav a:link,
 .customNav a:visited,
 .customNav a:active {
-    color: hsla(203, 91%, 26%);
+    color: white;
+    background-color: transparent !important;
+}
+
+.nav-link.active,
+.nav-link.show {
+    color: white !important;
+}
+
+.customNav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.nav-link {
+
+    &.active,
+    &.show {
+        color: black;
+    }
 }
 
 .navCTA {
-    font-size: 15px;
+    font-size: 30px;
 }
 
 /* Jumbotron  */
-
-section.testimonials {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-}
-
-section.testimonials .testimonial-item {
-    max-width: 18rem;
-}
-
 .img-fluid {
     max-width: 12rem;
     max-height: 10rem;
@@ -125,8 +154,7 @@ section.testimonials .testimonial-item {
 }
 
 .ldnBackground {
-    background-image: url(../images/MyLondon2.JPG);
-    opacity: 0.7;
+    background-image: url(../images/home.png);
     background-size: cover;
     background-repeat: no-repeat;
     /* height: calc(110vh - 25px); */
@@ -160,6 +188,7 @@ section.testimonials .testimonial-item {
 
 .myProjects img {
     border-radius: 15px;
+    opacity: 0.9;
 }
 
 .cardContainer {
@@ -191,12 +220,15 @@ section.testimonials .testimonial-item {
 }
 
 .list-group {
-    --bs-list-group-color: hsla(203, 91%, 26%) !important;
     --bs-list-group-border-color: none !important;
     --bs-list-group-bg: none !important;
     --bs-list-group-bg: url("../images/background-page.png");
     /* the skills background */
     font-size: 25px;
+}
+
+.list-group-item {
+    color: rgb(74, 85, 72) !important;
 }
 
 
@@ -205,7 +237,7 @@ section.testimonials .testimonial-item {
 .contact-section {
     --bs-card-border-color: none !important;
     padding-top: 3rem !important;
-    background: hsla(203, 91%, 26%, 0.5);
+    background: rgb(94, 113, 90, 0.85);
 }
 
 
@@ -216,7 +248,7 @@ section.testimonials .testimonial-item {
 
 
 .contact-section a:link {
-    color: hsla(203, 91%, 26%);
+    color: rgb(68, 78, 66);
 }
 
 .contact-section a {
@@ -226,7 +258,7 @@ section.testimonials .testimonial-item {
 /* EDIT BELOW FROM TRAVEL CALI */
 
 .contact-section .card hr {
-    border-color: hsla(203, 91%, 26%);
+    border-color: whitesmoke;
     border-width: 0.3rem;
     ;
 }
@@ -245,14 +277,14 @@ footer {
     text-align: center;
     /* color: rgba(255, 255, 255, 0.3); */
     color: whitesmoke;
-    background-color: hsla(203, 91%, 26%, 0.9);
+    background-color: rgb(94, 113, 90, 0.9);
 }
 
 /* SOCIALS SECTION */
 
 .social {
     padding: 20px 0 20px 0;
-    background: hsla(203, 91%, 26%, 0.5) !important;
+    background: rgb(94, 113, 90, 0.85) !important;
 
 }
 
@@ -260,7 +292,7 @@ footer {
     text-align: center;
     height: 3rem;
     width: 3rem;
-    background: hsla(203, 91%, 26%, 0.3) !important;
+    background: rgb(94, 113, 90, 0.5) !important;
     border-radius: 100%;
     line-height: 3rem;
     color: rgba(255, 255, 255, 0.8) !important;
@@ -273,4 +305,8 @@ footer {
 
 .social a:active {
     color: #fff !important;
+}
+
+div.my-4 {
+    color: white !important;
 }
