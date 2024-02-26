@@ -13,7 +13,8 @@
 }
 
 /* button info */
-.progress-bar, a.btn.btn-primary.btn-md.navCTA {
+.progress-bar,
+a.btn.btn-primary.btn-md.navCTA {
     --bs-btn-border-color: color: rgba(71, 65, 65, 0.9) !important;
     --bs-btn-bg: var(--button-color) !important;
     background-color: var(--button-color) !important;
@@ -23,7 +24,7 @@
 
 .btn-primary {
     --bs-btn-bg: var(--button-color) !important;
-    --bs-btn-border-color:  var(--button-outline) !important;
+    --bs-btn-border-color: var(--button-outline) !important;
 }
 
 .btn:hover {
@@ -32,6 +33,7 @@
 }
 
 /* Text */
+p,
 hr,
 h1,
 h2,
@@ -39,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--bs-font-sans-serif);
     color: white !important;
 }
 
@@ -50,10 +52,6 @@ h3 {
 
 h5 {
     margin-bottom: 30px;
-}
-
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Navigation bar */
@@ -176,7 +174,6 @@ p {
 .sectionHeading {
     text-align: center;
     color: hsla(203, 91%, 26%);
-    margin-bottom: 30px;
     font-size: 32px;
 }
 
@@ -228,7 +225,7 @@ p {
 }
 
 .list-group-item {
-    color: rgb(74, 85, 72) !important;
+    color: white !important;
 }
 
 
