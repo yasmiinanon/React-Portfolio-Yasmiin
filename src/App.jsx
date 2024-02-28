@@ -1,5 +1,5 @@
 import Jumbotron from "./components/Jumbotron/Jumbotron";
-import Navbar from "./components/Navbar/Navbar";
+import NavBar from "./components/Navbar/Navbar";
 import ProjectCard from './components/ProjectCards/project';
 import Skills from './components/Skills/skills';
 import Contact from "./components/Contact/contact";
@@ -12,7 +12,7 @@ import projects from './project.json';
 function App() {
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <Jumbotron />
       <div className="row myProjects">
         {projects.map((project) => (
