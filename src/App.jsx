@@ -1,29 +1,30 @@
-import Jumbotron from "./components/Jumbotron/Jumbotron";
-import NavBar from "./components/Navbar/Navbar";
-import ProjectCard from './components/ProjectCards/project';
-import Skills from './components/Skills/skills';
-import Contact from "./components/Contact/contact";
-import Socials from "./components/Socials/socials";
-import Footer from "./components/Footer/footer";
-import projects from './project.json';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+import Jumbotron from "./components/Jumbotron";
+import NavBar from "./components/Navbar";
+import Projects from "./components/Pages/Projects";
+import Skills from "./components/Pages/Skills";
+import Contact from "./components/Pages/Contact";
+import Socials from "./components/socials";
+import Footer from "./components/footer";
 
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Jumbotron />
-      <div className="row myProjects">
-        {projects.map((project) => (
-          <ProjectCard key={project.id} name={project.name} image={project.image} description={project.description} github={project.github} deployed={project.deployed} deployedPage={project.deployedPage} githubPage={project.githubPage} />
-        ))}
+    <Router>
+      <div>
+        <NavBar />
+        <Jumbotron/>
+        <Routes>
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Socials />
+        <Footer />
       </div>
-      <Skills />
-      <Contact />
-      <Socials />
-      <Footer />
-    </div>
+    </Router>
   );
 }
 
