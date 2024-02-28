@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Jumbotron from "./components/Jumbotron";
+import Home from "./components/Pages/Home";
 import NavBar from "./components/Navbar";
 import Projects from "./components/Pages/Projects";
 import Skills from "./components/Pages/Skills";
@@ -15,8 +15,8 @@ function App() {
     <Router>
       <div>
         <NavBar />
-        <Jumbotron/>
         <Routes>
+          <Route path="/home" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />

@@ -181,14 +181,13 @@ h5 {
     font-size: 32px;
 }
 
-.myProjects {
-
-    padding: 120px 15px 15px 15px;
+#myProjects {
+    padding: 120px 15px 50px 15px;
     row-gap: 20px;
     background: url("../images/background-page.png");
 }
 
-.myProjects img {
+#myProjects img {
     border-radius: 15px;
     opacity: 0.9;
 }
@@ -200,6 +199,11 @@ h5 {
     display: flex !important;
     flex-flow: row wrap !important;
     justify-content: space-around;
+}
+
+#skill-section {
+    padding: 150px 90px 150px 90px;
+    text-align: left;
 }
 
 .section,
@@ -224,7 +228,8 @@ h5 {
 .list-group {
     --bs-list-group-border-color: none !important;
     --bs-list-group-bg: none !important;
-    --bs-list-group-bg: url("../images/background-page.png");
+    --bs-list-group-bg: rgb(94, 113, 90, 0.85);
+    /* --bs-list-group-bg: url("../images/background-page.png"); */
     /* the skills background */
     font-size: 25px;
 }
@@ -236,10 +241,13 @@ h5 {
 
 /* Contact */
 
+#contact {
+    padding: 200px 90px 200px 90px;
+}
+
 .contact-section {
     --bs-card-border-color: none !important;
-    padding-top: 3rem !important;
-    background: rgb(94, 113, 90, 0.85);
+    background: url("../images/background-page.png");
 }
 
 
