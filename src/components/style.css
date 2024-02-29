@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(111, 128, 108);
+    background-color: rgb(94, 113, 90, 0.85) !important;
 }
 
 #title {
@@ -159,7 +159,7 @@ h5 {
     background-image: url(../images/home.png);
     background-size: cover;
     background-repeat: no-repeat;
-    /* height: calc(110vh - 25px); */
+    min-height: 300px;
 }
 
 /* Jumbotron copy */
@@ -168,6 +168,8 @@ h5 {
     max-width: 800px; */
     color: white;
     text-align: center;
+    align-items: stretch !important;
+    padding-top: 30px !important;
 }
 
 /* Cards */
@@ -287,7 +289,7 @@ footer {
     text-align: center;
     /* color: rgba(255, 255, 255, 0.3); */
     color: whitesmoke;
-    background-color: rgb(94, 113, 90, 0.9);
+    background-color: rgb(94, 113, 90, 0.85) !important;
 }
 
 /* SOCIALS SECTION */
