@@ -11,6 +11,16 @@
   },
   {
     "id": 2,
+    "name": "Cocktail Guide",
+    "image": "../images/Cocktail1.png",
+    "description": "This web application was part of a group project which allows users to search for cocktail recipes and explore their ingredients and recipes",
+    "github": "https://github.com/leeathena/Cocktail-guide/tree/main/assets",
+    "deployed": "https://leeathena.github.io/Cocktail-guide/",
+    "deployedPage": "Deployed Page",
+    "githubPage": "Github"
+  },
+  {
+    "id": 3,
     "name": "1st Portfolio",
     "image": "../images/portfolio-1.png",
     "description": "This project involved building a portfolio page, using HTML and CSS.",
@@ -20,22 +30,12 @@
     "githubPage": "Github"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "2nd Portfolio",
     "image": "../images/portfolio-2.png",
     "description": "This project involved building a portfolio page, using bootstrap, CSS and HTML",
     "github": "https://github.com/yasmiinanon/yasmiinanon-bootstrap-portfolio",
     "deployed": "https://yasmiinanon.github.io/yasmiinanon-bootstrap-portfolio/",
-    "deployedPage": "Deployed Page",
-    "githubPage": "Github"
-  },
-  {
-    "id": 4,
-    "name": "Cocktail Guide",
-    "image": "../images/Cocktail1.png",
-    "description": "This web application was part of a group project which allows users to search for cocktail recipes and explore their ingredients and recipes",
-    "github": "https://github.com/leeathena/Cocktail-guide/tree/main/assets",
-    "deployed": "https://leeathena.github.io/Cocktail-guide/",
     "deployedPage": "Deployed Page",
     "githubPage": "Github"
   }
