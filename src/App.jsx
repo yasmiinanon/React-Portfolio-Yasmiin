@@ -1,7 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Home, Projects, Skills, Contact } from "./components/Pages";
-import { Socials, Footer, NavBar } from "./components";
+
+import Home from "./components/Pages/Home";
+import NavBar from "./components/Navbar";
+import Projects from "./components/Pages/Projects";
+import Skills from "./components/Pages/Skills";
+import Contact from "./components/Pages/Contact";
+import Socials from "./components/socials";
+import Footer from "./components/footer";
 
 
 function App() {
