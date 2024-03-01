@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "5-Day Weather Schedule",
-    "image": "/React-Portfolio-Yasmiin/public/weather-API.png",
+    "image": "/React-Portfolio-Yasmiin/src/components/assets/weather-API.png",
     "description": "I improved a homepage and its code based on established accessibility standards.",
     "github": "https://github.com/yasmiinanon/APIs-for-weather-Yasmiin",
     "deployed": "https://yasmiinanon.github.io/APIs-for-weather-Yasmiin/",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "Cocktail Guide",
-    "image": "/React-Portfolio-Yasmiin/public/Cocktail1.png",
+    "image": "/React-Portfolio-Yasmiin/src/components/assets/Cocktail1.png",
     "description": "This web application was part of a group project which allows users to search for cocktail recipes and explore their ingredients and recipes",
     "github": "https://github.com/leeathena/Cocktail-guide/tree/main/assets",
     "deployed": "https://leeathena.github.io/Cocktail-guide/",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "name": "1st Portfolio",
-    "image": "/React-Portfolio-Yasmiin/public/portfolio-1.png",
+    "image": "/React-Portfolio-Yasmiin/src/components/assets/portfolio-1.png",
     "description": "This project involved building a portfolio page, using HTML and CSS.",
     "github": "https://github.com/yasmiinanon/challenge-2-Portfolio",
     "deployed": "https://yasmiinanon.github.io/challenge-2-Portfolio/",
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "name": "2nd Portfolio",
-    "image": "/React-Portfolio-Yasmiin/public/portfolio-2.png",
+    "image": "/React-Portfolio-Yasmiin/src/components/assets/portfolio-2.png",
     "description": "This project involved building a portfolio page, using bootstrap, CSS and HTML",
     "github": "https://github.com/yasmiinanon/yasmiinanon-bootstrap-portfolio",
     "deployed": "https://yasmiinanon.github.io/yasmiinanon-bootstrap-portfolio/",
