@@ -2,10 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import NavBar from "./components/Navbar";
-// import Home from "./components/Pages/Home";
-// import Projects from "./components/Pages/Projects";
-// import Skills from "./components/Pages/Skills";
-// import Contact from "./components/Pages/Contact";
 import Socials from "./components/socials";
 import Footer from "./components/footer";
 import { Home, Projects , Skills, Contact, Custom404 } from "./components/Pages";
