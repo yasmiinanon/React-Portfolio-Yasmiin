@@ -1,5 +1,4 @@
 import "./style.css";
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 
@@ -15,17 +14,6 @@ function NavBar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-
-              {/* DROPDOWN START below
-              <NavDropdown title="My Projects" id="basic-nav-dropdown">
-                <NavDropdown.Item className="dropdown-item" href="/first-portfolio"><i className="bi bi-code-slash mx-4"></i>First Portfolio (Bootstrap) </NavDropdown.Item>
-                <NavDropdown.Item className="dropdown-item" href="/weather-schedule"><i className="bi bi-code-slash mx-4"></i>5-Day Weather Schedule </NavDropdown.Item>
-                <NavDropdown.Item className="dropdown-item" href="/cocktail-guide"><i className="bi bi-code-slash mx-4"></i>Cocktail Guide</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4"><i className="bi bi-code-slash mx-4"></i>Deen Hub - coming soon!</NavDropdown.Item>
-              </NavDropdown>
-              DROPDOWN END */}
-
               <li className="nav-item">
                 <NavLink className="nav-link" to="/projects"> My Projects </NavLink>
               </li>

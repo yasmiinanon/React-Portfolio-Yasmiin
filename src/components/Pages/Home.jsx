@@ -6,7 +6,7 @@ function Jumbotron() {
       <div className="container-fluid py-5 jumboCopy">
         <h1 className="display-5 fw-bold">A little about me...</h1>
         <div className="d-flex col">
-          <img className="img-fluid rounded mb-3" src="./images/avatar.jpg" alt="image of a woman posing at the top of a mountain edge"></img>
+          <img className="img-fluid rounded mb-3" src="/React-Portfolio-Yasmiin/src/images/avatar.png" alt="image of a woman posing at the top of a mountain edge"></img>
           <p className="fs-4 fw-normal">I'm a Data Analyst in the healthcare field by day. By night, I
             study front-end web development as an exciting first step toward my next career pivot.
             <br />
