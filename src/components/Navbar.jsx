@@ -25,7 +25,7 @@ function NavBar() {
               </li>
               <li className="nav-item">
                 <a className="btn btn-primary btn-md navCTA"
-                  href="https://drive.google.com/file/d/1OWqmgGyc8jxAHTfx_i8uYuGAUWjSSlmg/view" target="_blank"
+                  href="https://drive.google.com/file/d/1uwbQeG1QFday26uf9xiMGd9MU3FfBb1o/view?usp=sharing" target="_blank"
                   role="button"><i className="bi bi-file-earmark-person-fill"></i> My Resume</a>
               </li>
             </ul>

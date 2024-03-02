@@ -13,6 +13,9 @@ function Jumbotron() {
             <br />
             <br />
             I have recently made a hobby of taking a Santander bike through a different part of London at least one day each week (which was a lot easier to do when the weather was better!). I am also on a challenge to read one book a month this year to hopefully return to my childhood habit of reading!
+            <br />
+            <br />
+            Check out my portfolio above!
           </p>
         </div>
       </div>
