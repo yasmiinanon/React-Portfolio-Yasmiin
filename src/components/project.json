@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "5-Day Weather Schedule",
-    "image": "./weatherAPI.png",
+    "image": "/weatherAPI.png",
     "description": "I improved a homepage and its code based on established accessibility standards.",
     "github": "https://github.com/yasmiinanon/APIs-for-weather-Yasmiin",
     "deployed": "https://yasmiinanon.github.io/APIs-for-weather-Yasmiin/",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "Cocktail Guide",
-    "image": "/React-Portfolio-Yasmiin/public/Cocktail.png",
+    "image": "./image/Cocktail.png",
     "description": "This web application was part of a group project which allows users to search for cocktail recipes and explore their ingredients and recipes",
     "github": "https://github.com/leeathena/Cocktail-guide/tree/main/assets",
     "deployed": "https://leeathena.github.io/Cocktail-guide/",
