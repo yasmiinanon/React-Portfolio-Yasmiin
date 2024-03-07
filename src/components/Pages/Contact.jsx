@@ -32,7 +32,7 @@ function Contact() {
                 <h3 className="text-uppercase m-0 fw-bolder mt-3 mb-2">Email</h3>
                 <hr className="my-4" />
                 <div>
-                  <a className="text-light h5 mt-2" href="mailto:yasmin.a.ibrahim@icloud.com">yasmin.project@icloud.com</a>
+                  <a className="text-light h5 mt-2" href="mailto:yasmin.a.ibrahim@icloud.com">yasmiinanon@yahoo.com</a>
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ function Contact() {
                   }}></i>
                 <h3 className="text-uppercase m-0 fw-bolder text-light mt-3 mb-2">Phone</h3>
                 <hr className="my-4" />
-                <a className="text-light h5 mt-2" href="077 1234 5678">077 1234 5678</a>
+                <a className="text-light h5 mt-2" href="077 1234 5678">0737 5257 154</a>
               </div>
             </div>
           </div>
